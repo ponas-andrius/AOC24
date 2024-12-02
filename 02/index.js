@@ -68,7 +68,6 @@ const solvePart2 = (input) => {
 
         let safeAfterMod = false;
         let index = 0;
-        console.log(line);
         while(!safeAfterMod && index <= diffs.length) {
             const tempLine = [...line];
             tempLine.splice(index, 1);
